@@ -1,0 +1,377 @@
+/*
+Themes Name : Portfolio
+Author      : Otniel Bagus
+Version     : 1.0
+Licensed    : GPL Themes
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #ffffff;
+}
+
+/* Navigation */
+nav {
+    position: relative;
+    background-color: #3172ff;
+}
+
+nav .navbar-brand {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav a.nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav a.nav-link.active,
+nav a.nav-link:hover {
+    color: #FBD46D ;
+}
+
+/* About */
+#about {
+    position: relative;
+    background-color: #F4F6FF;
+    /* background: #5000ca;
+background: linear-gradient(0deg, rgba(80,0,202,1) 19%, rgba(189,181,202,1) 100%); */
+    padding: 150px 0;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #4F8A8B;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+}
+
+#about h1 {
+    position: relative;
+    margin: 0;
+    padding: 25px 0;
+    color: #4F8A8B;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#about h5 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #4F8A8B;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Services */
+#service {
+    position: relative;
+    padding: 50px 0;
+    background-color: #FBD46D;
+}
+
+#service h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+
+#service .service-list {
+    position: relative;
+    padding: 15px 0;
+}
+
+#service .service-list .service-item {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#service .service-list .service-item img {
+    width: 40%;
+    background-color: transparent;
+}
+
+#service .service-list .service-item h3 {
+    color: #333535;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#service .service-list .service-item p {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+#service .service-list .service-item a.btn {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    font-size: 25px;
+    margin-top: 15px;
+    width: 50%;
+}
+
+#service .service-list .service-item a.btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Projects */
+#project {
+    position: relative;
+    background-color: #4F8A8B;
+    padding: 50px 0;
+}
+
+#project h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+
+#project .project-item {
+    position: relative;
+    margin: 25px 0;
+}
+
+#project .project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: top center;
+    -o-object-position: top center;
+    margin-bottom: 15px;
+}
+
+#project .project-item h3 {
+    position: relative;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#project .project-item h5 {
+    position: relative;
+    color: #2c2c2c;
+    font-size: 15px;
+}
+
+/* Testimonials */
+#testimonials {
+    position: relative;
+    padding: 60px 0;
+    background-color: #07031A;
+}
+
+#testimonials h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#testimonials .carousel-item .carousel-content {
+    color: #ffffff;
+    text-align: center;
+    padding: 0 100px;
+}
+
+#testimonials .carousel-item .carousel-content img {
+    width: 160px;
+    border: 4px solid #ffffff;
+    margin-bottom: 15px;
+}
+
+#testimonials .carousel-item .carousel-content h5 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+#testimonials .carousel-item .carousel-content p {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Contact */
+#contact {
+    position: relative;
+    padding: 50px 0;
+    background-color: #07031A;
+    /* background: rgb(80,0,202);
+background: linear-gradient(0deg, rgba(80,0,202,1) 19%, rgba(189,181,202,1) 100%); */
+}
+
+#contact form {
+    position: relative;
+    max-width: 600;
+    margin: 0 auto;
+}
+
+#contact form label {
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 2px solid #000000;
+}
+
+#contact form button[type="submit"] {
+    position: relative;
+    display: block;
+    width: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    margin: 15px auto;
+}
+
+#contact form button[type="submit"]:hover {
+    background-color: #07031A;
+    color: #ffffff;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    background-color: #F4F6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border: 6.7px solid #4F8A8B;
+    animation: spinner-kk2y8v 3s infinite;
+}
+
+@keyframes spinner-kk2y8v {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10%,
+    15% {
+        transform: rotate(-90deg);
+    }
+
+    20%,
+    25% {
+        transform: rotate(-180deg);
+    }
+
+    30%,
+    35% {
+        transform: rotate(-270deg);
+    }
+
+    40%,
+    50% {
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+/* Client */
+#client {
+    position: relative;
+    padding: 50px 0;
+}
+
+#client h2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: #06357a;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+
+/* Footer */
+#footer {
+    position: relative;
+    padding: 10px;
+}
+
+#footer p {
+    position: relative;
+    text-align: center;
+    color: #06357a;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    #service .service-list .service-item img {
+        width: 75%;
+    }
+
+    #project .project-item h5 {
+        font-size: 12px;
+    }
+
+    #testimonial .carousel-item .carousel-content p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:640px) {
+    #service .service-list .service-item img {
+        margin: 25px 0;
+    }
+
+    #project .project-item h5 {
+        height: 350px;
+    }
+
+    #testimonial .carousel-item .carousel-content  {
+        padding: 0 15px;
+    }
+}
+
+
+
